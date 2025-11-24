@@ -37,3 +37,78 @@ This project demonstrates real-world use of PL/SQL for automation, data integrit
 
 <img width="1151" height="521" alt="ESDS_BPMN_Diagram drawio (2) drawio" src="https://github.com/user-attachments/assets/ac344050-9bc7-4545-904f-df796183ab65" />
 
+**Database Schema**
+
+The ESDS system uses six relational tables to manage all product and monitoring operations:
+
+
+### **1. Products**
+| Column | Description |
+|--------|-------------|
+| ProductID (PK) | Unique product identifier |
+| Name | Product name |
+| Category | Product category |
+| ManufactureDate | Date the product was manufactured |
+| ExpiryDate | Date product expires |
+| StorageCondition | Required storage environment |
+
+---
+
+### **2. Inventory**
+| Column | Description |
+|--------|-------------|
+| InventoryID (PK) | Inventory record ID |
+| ProductID (FK) | References Products |
+| Quantity | Number of items in stock |
+| ReceivedDate | Date received in store |
+| Location | Physical storage location |
+
+---
+
+### **3. SpoilageAlerts**
+| Column | Description |
+|--------|-------------|
+| AlertID (PK) | Alert record ID |
+| ProductID (FK) | References Products |
+| AlertDate | Date the alert was generated |
+| Message | Description of the spoilage risk |
+| Status | Pending / Resolved |
+
+---
+
+### **4. Sales**
+| Column | Description |
+|--------|-------------|
+| SaleID (PK) | Sale record ID |
+| ProductID (FK) | References Products |
+| Quantity | Quantity sold |
+| SaleDate | When the sale occurred |
+
+---
+
+### **5. Suppliers**
+| Column | Description |
+|--------|-------------|
+| SupplierID (PK) | Supplier record ID |
+| Name | Supplier name |
+| ContactInfo | Contact information |
+
+---
+
+### **6. StorageConditions**
+| Column | Description |
+|--------|-------------|
+| ConditionID (PK) | Condition record ID |
+| ProductID (FK) | References Products |
+| Temperature | Temperature reading |
+| Humidity | Humidity reading |
+| DateRecorded | When the reading was taken |
+
+---
+
+##  System Overview
+
+
+
+
+
