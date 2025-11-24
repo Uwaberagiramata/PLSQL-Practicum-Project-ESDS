@@ -1,5 +1,6 @@
 # PLSQL-Practicum-Project-ESDS
 **Early Spoilage Detection System (ESDS)**
+
 A PL/SQL–based system designed to automatically detect, track, and alert staff about products approaching spoilage. This project focuses on reducing waste, improving stock freshness, and supporting data-driven inventory management.
 
 **Project Overview**
@@ -34,4 +35,5 @@ This project demonstrates real-world use of PL/SQL for automation, data integrit
 
 **Below is the business workflow represented in BPMN with swimlanes.**
 
+<img width="1151" height="521" alt="ESDS_BPMN_Diagram drawio (2) drawio" src="https://github.com/user-attachments/assets/ac344050-9bc7-4545-904f-df796183ab65" />
 
