@@ -3,8 +3,11 @@
 Student Information
 
 Name: Giramata Sheilla
+
 Id:28741
+
 Project: Early Spoilage Detection System (ESDS)
+
 Course: PL/SQL Practicum Final Assessment
 
 
@@ -33,9 +36,9 @@ This project demonstrates real-world use of PL/SQL for automation, data integrit
 
  Core PL/SQL Features
 
-##My project will include:
+**My project will include:**
 
-✔ Stored Procedures
+**✔ Stored Procedures**
 
 -Add new inventory
 
@@ -43,7 +46,7 @@ This project demonstrates real-world use of PL/SQL for automation, data integrit
 
 -Generate alerts
 
-✔ Functions
+**✔ Functions**
 
 -Days until expiry
 
@@ -51,7 +54,7 @@ This project demonstrates real-world use of PL/SQL for automation, data integrit
 
 -Environmental evaluation
 
-✔ Triggers
+**✔ Triggers**
 
 -Auto-alert trigger when shelf-life < threshold
 
@@ -59,7 +62,7 @@ This project demonstrates real-world use of PL/SQL for automation, data integrit
 
 -Business rule: no modifications allowed on weekdays or holidays
 
-✔ Packages
+**✔ Packages**
 
 Grouped logic for:
 
@@ -69,7 +72,7 @@ Grouped logic for:
 
 -Alert management
 
-4. Target Users
+**4. Target Users**
 
 -Inventory Managers
 
@@ -152,19 +155,11 @@ The ESDS system uses six relational tables to manage all product and monitoring 
 
 ---
 
-##  System Overview
 
-1. Inventory staff enters new product details  
-2. System logs the item into the database  
-3. ESDS checks how close the product is to expiry  
-4. If spoilage risk is HIGH → System creates an alert  
-5. Store manager receives alert and takes action  
-6. Environmental conditions are logged continuously
-   
 
-8. Advanced Features 
+**8. Advanced Features** 
 
-## Real-time Dashboards
+**Real-time Dashboards**
 
 Use aggregated SQL queries to generate:
 
@@ -174,11 +169,11 @@ Use aggregated SQL queries to generate:
 
 -Weekly/monthly risk reports
 
-##IoT Temperature Sensors
+**IoT Temperature Sensors**
 
 Simulated data inserted into StorageConditions table.
 
- ##Predictive Spoilage Models
+ **Predictive Spoilage Models**
 
 Using:
 
@@ -188,27 +183,32 @@ Using:
 
 -Product category behaviours
 
- 9. Business Intelligence (BI) Potential
 
--Spoilage trend charts
+**9. Business Intelligence (BI) Potential**
 
--Supplier performance analysis
-
--Inventory turnover dashboards
-
--Prediction of when stock will expire
-
--High-risk products ranking
-
-## 9. Business Intelligence (BI) Potential
 The Early Spoilage Detection System (ESDS) generates valuable data that can support decision-making through analytics and dashboards. Some BI opportunities include:
 
 - Spoilage Trends Dashboard: Shows spoilage volume and frequency over time.
+  
 - Supplier Quality Evaluation: Identifies suppliers linked to high spoilage rates.
+  
 - High-Risk Product Forecasting: Flags products likely to spoil soon.
+  
 - Storage Condition Analysis: Monitors temperature/humidity impact on product spoilage.
+  
 - Loss Reduction Metrics: Calculates financial loss caused by spoilage.
+  
 - Predictive Spoilage Modeling (future enhancement): Uses historical data to estimate spoilage risk before it occurs.
+
+  # System Overview
+
+1. Inventory staff enters new product details  
+2. System logs the item into the database  
+3. ESDS checks how close the product is to expiry  
+4. If spoilage risk is HIGH → System creates an alert  
+5. Store manager receives alert and takes action  
+6. Environmental conditions are logged continuously
+   
 
 
 
