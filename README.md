@@ -1,11 +1,22 @@
 # PLSQL-Practicum-Project-ESDS
+
+Student Information
+
+Name: Giramata Sheilla
+Project: Early Spoilage Detection System (ESDS)
+Course: PL/SQL Practicum Final Assessment
+
+
+
 **Early Spoilage Detection System (ESDS)**
 
 A PL/SQL–based system designed to automatically detect, track, and alert staff about products approaching spoilage. This project focuses on reducing waste, improving stock freshness, and supporting data-driven inventory management.
 
 **Project Overview**
 
-The Early Spoilage Detection System (ESDS) monitors perishable inventory items by calculating expected spoilage dates and generating alerts when items fall below safety or freshness thresholds.
+The Early Spoilage Detection System (ESDS) is a PL/SQL-driven solution designed to help businesses—especially supermarkets, retailers, and pharmacies—automatically detect, track, and alert products that are close to spoilage before they become waste.
+
+The system monitors product shelf-life, evaluates environmental conditions, generates alerts, and helps management take preventive actions to reduce losses.
 
 -The system uses PL/SQL triggers, functions, and stored procedures to:
 
@@ -19,19 +30,53 @@ The Early Spoilage Detection System (ESDS) monitors perishable inventory items b
 
 This project demonstrates real-world use of PL/SQL for automation, data integrity, and process optimization.
 
-**Key Features**
+ Core PL/SQL Features
 
--Automatic Spoilage Date Calculation when a new item is added
+##My project will include:
 
--Trigger-Based Alerts for items below the safety threshold
+✔ Stored Procedures
 
--Spoilage Risk Evaluation Function
+-Add new inventory
 
--Daily Scheduled Check Procedure (simulation in PL/SQL)
+-Calculate spoilage
 
--Alert Log for Managers
+-Generate alerts
 
--Role-Based Access (Inventory Staff vs System vs Store Manager)
+✔ Functions
+
+-Days until expiry
+
+-Spoilage risk level
+
+-Environmental evaluation
+
+✔ Triggers
+
+-Auto-alert trigger when shelf-life < threshold
+
+-Audit logging on insert/update/delete
+
+-Business rule: no modifications allowed on weekdays or holidays
+
+✔ Packages
+
+Grouped logic for:
+
+-Inventory operations
+
+-Spoilage detection
+
+-Alert management
+
+4. Target Users
+
+-Inventory Managers
+
+-Store Supervisors
+
+-Warehouse Operators
+
+-Quality Assurance Teams
 
 **Below is the business workflow represented in BPMN with swimlanes.**
 
@@ -107,6 +152,14 @@ The ESDS system uses six relational tables to manage all product and monitoring 
 ---
 
 ##  System Overview
+
+1. Inventory staff enters new product details  
+2. System logs the item into the database  
+3. ESDS checks how close the product is to expiry  
+4. If spoilage risk is HIGH → System creates an alert  
+5. Store manager receives alert and takes action  
+6. Environmental conditions are logged continuously
+   
 
 
 
