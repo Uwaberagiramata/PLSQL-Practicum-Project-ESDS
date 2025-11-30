@@ -3,6 +3,7 @@
 Student Information
 
 Name: Giramata Sheilla
+Id:28741
 Project: Early Spoilage Detection System (ESDS)
 Course: PL/SQL Practicum Final Assessment
 
@@ -161,6 +162,53 @@ The ESDS system uses six relational tables to manage all product and monitoring 
 6. Environmental conditions are logged continuously
    
 
+8. Advanced Features 
+
+## Real-time Dashboards
+
+Use aggregated SQL queries to generate:
+
+-Most spoiled products
+
+-Spoilage trends
+
+-Weekly/monthly risk reports
+
+##IoT Temperature Sensors
+
+Simulated data inserted into StorageConditions table.
+
+ ##Predictive Spoilage Models
+
+Using:
+
+-Average spoilage time
+
+-Temperature anomalies
+
+-Product category behaviours
+
+ 9. Business Intelligence (BI) Potential
+
+-Spoilage trend charts
+
+-Supplier performance analysis
+
+-Inventory turnover dashboards
+
+-Prediction of when stock will expire
+
+-High-risk products ranking
+
+## 9. Business Intelligence (BI) Potential
+The Early Spoilage Detection System (ESDS) generates valuable data that can support decision-making through analytics and dashboards. Some BI opportunities include:
+
+- Spoilage Trends Dashboard: Shows spoilage volume and frequency over time.
+- Supplier Quality Evaluation: Identifies suppliers linked to high spoilage rates.
+- High-Risk Product Forecasting: Flags products likely to spoil soon.
+- Storage Condition Analysis: Monitors temperature/humidity impact on product spoilage.
+- Loss Reduction Metrics: Calculates financial loss caused by spoilage.
+- Predictive Spoilage Modeling (future enhancement): Uses historical data to estimate spoilage risk before it occurs.
 
 
 
