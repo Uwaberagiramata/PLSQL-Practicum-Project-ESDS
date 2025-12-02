@@ -92,9 +92,11 @@ The ESDS system uses six relational tables to manage all product and monitoring 
 
 
 ### **1. Products**
+
 | Column | Description |
 |--------|-------------|
 | ProductID (PK) | Unique product identifier |
+|SupplierID(FK)|References Supplier|
 | Name | Product name |
 | Category | Product category |
 | ManufactureDate | Date the product was manufactured |
