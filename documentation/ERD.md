@@ -10,7 +10,7 @@ The Early Spoilage Detection System (ESDS) uses six main tables. These tables ca
 
 Central table that stores product information.
 
-Connected to Inventory, SpoilageAlerts, Sales, and StorageConditions.
+Connected to Inventory, SpoilageAlerts, Sales, Supplier and StorageConditions.
 
 Primary Key: ProductID
 
