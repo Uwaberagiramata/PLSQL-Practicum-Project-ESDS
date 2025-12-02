@@ -210,7 +210,11 @@ The Early Spoilage Detection System (ESDS) generates valuable data that can supp
 4. If spoilage risk is HIGH → System creates an alert  
 5. Store manager receives alert and takes action  
 6. Environmental conditions are logged continuously
-   
+
+## Entity Relationship Diagram (ERD)
+
+The ERD for this project is located in the `diagrams/` folder.
+
 [View ER Diagram](diagrams/Database%20ER%20diagram.png)
 
 
