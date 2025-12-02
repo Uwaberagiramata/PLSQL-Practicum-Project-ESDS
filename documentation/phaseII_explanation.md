@@ -104,7 +104,4 @@ This process is directly relevant to Management Information Systems (MIS) becaus
 
 -Enables BI dashboards for spoilage trends and supplier quality
 
-**The detailed ERD can be found in the `diagrams/` folder. It illustrates the relationships between core entities such as Products, Suppliers, Inventory, Sales, and Storage Conditions.**
-
-[View ER Diagram](diagrams/Database%20ER%20diagram.png)
 
