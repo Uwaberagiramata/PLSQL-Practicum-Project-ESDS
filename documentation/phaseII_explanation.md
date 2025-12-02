@@ -104,4 +104,11 @@ This process is directly relevant to Management Information Systems (MIS) becaus
 
 -Enables BI dashboards for spoilage trends and supplier quality
 
+## ESDS BPMN Diagram
+
+This BPMN diagram illustrates the business process flow and system interactions for the ESDS module.
+
+[View ESDS BPMN Diagram](diagrams/ESDS_BPMN_Diagram.drawio%20(2).drawio.png)
+
+
 
