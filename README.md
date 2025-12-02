@@ -82,10 +82,6 @@ Grouped logic for:
 
 -Quality Assurance Teams
 
-**Below is the business workflow represented in BPMN with swimlanes.**
-
-<img width="1151" height="521" alt="ESDS_BPMN_Diagram drawio (2) drawio" src="https://github.com/user-attachments/assets/ac344050-9bc7-4545-904f-df796183ab65" />
-
 **Database Schema**
 
 The ESDS system uses six relational tables to manage all product and monitoring operations:
@@ -216,6 +212,13 @@ The Early Spoilage Detection System (ESDS) generates valuable data that can supp
 The ERD for this project is located in the `diagrams/` folder.
 
 [View ER Diagram](diagrams/Database%20ER%20diagram.png)
+
+## ESDS BPMN Diagram
+This BPMN diagram illustrates the business process flow and system interactions for the ESDS module.
+
+[View ESDS BPMN Diagram](diagrams/ESDS_BPMN_Diagram.drawio%20(2).drawio.png)
+
+
 
 
 
