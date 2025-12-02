@@ -211,6 +211,7 @@ The Early Spoilage Detection System (ESDS) generates valuable data that can supp
 5. Store manager receives alert and takes action  
 6. Environmental conditions are logged continuously
    
+[View ER Diagram](diagrams/Database%20ER%20diagram.png)
 
 
 
