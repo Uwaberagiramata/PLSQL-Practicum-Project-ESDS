@@ -59,16 +59,3 @@
 | Humidity     | NUMBER(5,2) | NULL                               | Humidity reading       |
 | DateRecorded | DATE        | NOT NULL                           | When reading was taken |
 
-## Assumptions
-
-Products can appear multiple times in inventory due to restocking.
-
-Environmental data may come every minute/hour (simulated).
-
-Spoilage alert messages are generated automatically via PL/SQL triggers.
-
-Status of alerts must be manually updated by store managers.
-
-
-
-
