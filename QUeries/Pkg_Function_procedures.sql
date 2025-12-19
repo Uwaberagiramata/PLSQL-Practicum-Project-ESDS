@@ -47,8 +47,6 @@ CREATE OR REPLACE PACKAGE esds_pkg AS
   PROCEDURE create_spoilage_alert(p_product_id NUMBER, p_message VARCHAR2);
 END esds_pkg;
 /
-sql
-Copy code
 CREATE OR REPLACE PACKAGE BODY esds_pkg AS
 
   FUNCTION days_until_expiry(p_product_id NUMBER) RETURN NUMBER IS
